@@ -6,7 +6,7 @@ A lightweight **command-line tool** that looks up public metadata for any phone 
 
 ---
 
-## ✨ Features
+##  Features
 
 - ✅ Validates and parses phone numbers (E.164, international, national formats)
 - 🌍 Detects **country / region**
@@ -33,18 +33,18 @@ pip install phonenumbers
 
 ### One-off lookup
 ```bash
-python phone_tracker.py +14155552671
+python phone_tracker.py +270005555
 ```
 
 ### With a default region (for local-format numbers)
 ```bash
-python phone_tracker.py "07911 123456" --region GB
+python phone_tracker.py "+27 000 5555" --region SA
 ```
 
 ### Interactive mode
 ```bash
 python phone_tracker.py
-> Enter a phone number: +33612345678
+> Enter a phone number: +2700005555
 ```
 
 ---
@@ -55,17 +55,17 @@ python phone_tracker.py
 ─────────────────────────────────────────
  Phone Number Lookup
 ─────────────────────────────────────────
- Input         : +14155552671
+ Input         : +2700005555
  Valid         : ✅ Yes
- E.164         : +14155552671
- International : +1 415-555-2671
- National      : (415) 555-2671
+ E.164         : +2700005555
+ International : +27 000 5555
+ National      : (27) 00005555
  Country code  : 1
- Region        : US
- Location      : San Francisco, CA
+ Region        : SA
+ Location      : tembisa, JHB
  Carrier       : (unknown for landlines)
  Line type     : Fixed line or mobile
- Timezones     : America/Los_Angeles
+ Timezones     : SOUTH AFRICA
 ─────────────────────────────────────────
 ```
 
@@ -102,4 +102,4 @@ Use responsibly and respect local privacy laws.
 
 ## 📄 License
 
-MIT — do whatever you want, just don't blame me.
+MIT — USE IT FOR LEARNING PURPOSES SINCE I WAS LEARNING TOO.
